@@ -1,0 +1,15 @@
+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React.Children.forEach(this.props.children, child => {
+  if (match == null && React.isValidElement(child)) {
+    element = child;
+
+    const path = child.props.path || child.props.from;
+
+     match = path
+       ? matchPath(location.pathname, { ...child.props, path })
+       : context.match;
+   }
+ });
+
+return match
+  ? React.cloneElement(element, { location, computedMatch: match })
+  : null;
