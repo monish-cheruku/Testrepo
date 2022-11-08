@@ -1,1 +1,10 @@
+<<<<<<< HEAD
 text  asasa  sdsd
+=======
+text
+
+new text
+>>>>>>> 4b0d5a9eaba7c5c91ae2a44c7324320b6d132c1a
+
+
+Sivasdsdsd
